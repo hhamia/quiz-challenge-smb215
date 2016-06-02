@@ -1,3 +1,11 @@
 Ce fichier contiendra une description détaillée du code du projet :quiz challenge
 Au début on a trois classe:
 
+MainActivity.java
+qui est la classe principale contient 2 button (login et register)
+Login.java 
+qui est la page contient la zone d'authentification par username et password et un button submit
+
+Register.java
+contient les objet pour la registration  comme username and password and email
+
