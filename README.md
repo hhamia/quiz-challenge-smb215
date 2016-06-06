@@ -1,3 +1,12 @@
+Au début, nous allons montrer comment le jeu travaille 
+cette application est un jeu online  de multi-joueurs de plusieurs étapes (level 1,level 2,level 3 ...) nécessite  l'inscription a la base de donne pour que le client devient un joueur ce fonction d'inscription se réalise a partir d'une application web qui est l'interface de la base de donne mysql 
+âpres l'inscription le rôle du serveur apparait et basée sur la notion socket ceci permet d'échange des donnes entre client -serveur et vise versa.
+chaque client inscrit il fait uploadé tout les contact liste sur le serveur et il va registré son numéro du téléphone sur le serveur  et si un nouveaux joueur inscrit le serveur En regardant les bases de données s'il a conformé les numéro du téléphone de autre personne dans la contact liste le serveur va émet de notifications au joueur pour informer Cet ami de la vôtre est inscrit dans le jeu si vous voulez jouer avec lui.(comme l'application viber par exemple si un nouveaux personne de mon contact liste a installer l'application le serveur viber va informer les autre personne par de notification )
+en plus le rôle du serveur est présenter sur ce application par la requêté qui se fait entre le joueur (par la premier click sur le bouton qui permet de faire la réponse au question il arrête l'acceptation du requête venant de autre joueur ,  par présentation et changement de questions selon le étapes du joueur , par calcul du point pour chaque joueur )
+et cette application doit contient de page (Dashboard qui représente et affiche le joueur avec son étapes et son score ...)
+
+
+
 Plan du projet
 introduction
 Ø  Objet du document
